@@ -2,7 +2,7 @@ import logo from "../../assets/logo2.png";
 
 const RequestCallBack = () => {
     return (
-        <div className="my-10 md:my-16 lg:my-32 px-4 md:px-10 lg:px-20">
+        <div className="my-10 md:my-16  px-4 md:px-10 lg:px-20">
         <div className="px-4 md:px-0 lg:px-20 py-16 border flex flex-col lg:flex-row gap-10 md:gap-16 lg:gap-32 items-center">
           <div className="flex-1">
             <img className="" src={logo} alt="logo" />

@@ -1,4 +1,4 @@
-import grop from "../../assets/grp.png"
+import grop from "../../assets/logo.png"
 import grop1 from "../../assets/DELIGHTING.png"
 
 const Innocent = () => {

@@ -1,14 +1,15 @@
 
 import './App.css'
+import Banner from './Component/Banner/Banner'
+import Defence from './Component/Defence/Defence'
 
 function App() {
 
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      <Banner></Banner>
+      <Defence></Defence>
     </>
   )
 }

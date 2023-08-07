@@ -27,8 +27,8 @@ const AskQuation = () => {
     ])
     return (
         <div className='md:px-10 lg:px-20 mt-20'>
-            <p>INNOCENT UNTIL PROVEN GUILTY</p>
-            <h1 className='text-3xl font-bold'>Frequently asked questions </h1>
+            <p className='p-2 text-sm'>INNOCENT UNTIL PROVEN GUILTY</p>
+            <h1 className='lg:text-3xl md:text-2xl text-xl font-bold p-2'>Frequently asked questions </h1>
            
             <div className='list bg-[#e9e8e8] lg:p-10 mt-10'>
                 {

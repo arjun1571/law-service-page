@@ -11,13 +11,13 @@ const Bannerm = () => {
     <>
         <div>
             {/* image div */}
-            <div className="w-full lg:flex md:flex  ">
-                <div className="lg:p-20 mx-5 lg:mx-1 md:mx-10 lg:w-2/4 p-3 ">
+            <div className="w-full lg:flex md:flex mt-5 ">
+                <div className="lg:p-20 mx-5 lg:mx-1 md:mx-10 lg:w-2/4 px-3 ">
                     <h1 className="lg:text-8xl text-2xl md:text-5xl font-bold mb-5   text-[#ac2e2e]">HERE TO <br /> DEFEND YOU</h1>
                     <h2 className="lg:text-2xl md:text-xl text-sm mb-5">DRUGS OFFENCE DEFENCE</h2>
-                    <p className="text-xl">Drug offences include possession,supply <br />importation,productio,occupier<br />permitting premises to be used for drugoffences,incitement,obstruction and <br />conspiracy of any class of drugs.</p>
+                    <p className="lg:text-xl text-xs">Drug offences include possession,supply importation,productio,occupier permitting premises to be used for drugoffences,incitement,obstruction and conspiracy of any class of drugs.</p>
                 </div>
-                <div className="lg:w-2/4 mt-16">
+                <div className="lg:w-2/4 mt-10">
                     <img className="w-full" src={banner} alt="" />
                 </div>
             </div>
